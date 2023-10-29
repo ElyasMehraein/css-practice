@@ -7,14 +7,20 @@
 
 .grid-container{
      background-color: aliceblue;
-     width: 80%;
+     width: 60%;
      margin: 1rem auto;
      display: grid;
-     grid-template-rows: 100px 240px 100px;
-     grid-template-columns: 120px 240px 120px;
+     grid-template-rows: repeat(3 , 100px);
+     grid-template-columns: repeat(3, 3fr);
+     gap: 50px;
+
 }
 
 .grid-items{
      background-color: aqua;
      border: 1px solid black;
+     color: rgb(3, 22, 38);
+     font-size: 30px;
+     text-align: center;
+     padding-top: 30px;
 }
