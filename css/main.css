@@ -26,4 +26,18 @@ body{
 
 .section-title{
     text-align: center;
+    padding: 25px;
+    font-size: 27px;
+    color: orange;
+}
+
+.section-title::before , .section-title::after{
+background-color: black;
+content: "";
+display: inline-block;
+height: 2px;
+position: relative;
+vertical-align: middle;
+width: 5%;
+margin: 0 1rem;
 }
