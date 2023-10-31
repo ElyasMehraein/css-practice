@@ -3,3 +3,24 @@
     grid-column: 1/-1 ;
 
 }
+
+.story-images{
+    padding: 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr ));
+    gap: 40px;
+
+}
+.story-images div{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr ));
+
+}
+
+.image{
+    width: 100%;
+    height: 250px;
+
+    border-radius:10px ;
+}
