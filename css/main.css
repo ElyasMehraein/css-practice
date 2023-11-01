@@ -29,15 +29,27 @@ body{
     padding: 25px;
     font-size: 27px;
     color: orange;
+    margin-top: 1rem;
+
 }
 
-.section-title::before , .section-title::after{
-background-color: black;
-content: "";
-display: inline-block;
-height: 2px;
-position: relative;
-vertical-align: middle;
-width: 5%;
-margin: 0 1rem;
+.section-title:before,
+.section-title:after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+
+.section-title:before {
+    right: 0.5rem;
+    margin-left: -50%;
+}
+
+.section-title:after {
+    left: 0.5rem;
+    margin-right: -50%;
 }
